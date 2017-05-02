@@ -1,0 +1,27 @@
+{
+  "name": "mailnote",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ptgolden/mailnote.git"
+  },
+  "keywords": [
+    "mbox",
+    "email",
+    "notes"
+  ],
+  "author": "Patrick Golden",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ptgolden/mailnote/issues"
+  },
+  "homepage": "https://github.com/ptgolden/mailnote#readme",
+  "dependencies": {
+    "dexie": "^1.5.1",
+    "mailparser": "^2.0.4",
+    "node-mbox": "^0.4.0"
+  }
+}
