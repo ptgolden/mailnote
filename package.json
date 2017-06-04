@@ -20,8 +20,23 @@
   },
   "homepage": "https://github.com/ptgolden/mailnote#readme",
   "dependencies": {
+    "axs-ui": "^1.0.4",
+    "concat-stream": "^1.6.0",
     "dexie": "^1.5.1",
-    "mailparser": "^2.0.4",
-    "node-mbox": "^0.4.0"
+    "filereader-stream": "^1.0.0",
+    "iconv-lite": "^0.4.17",
+    "mailparser": "^2.0.5",
+    "multistream": "^2.1.0",
+    "node-mbox": "^0.4.0",
+    "pump": "^1.0.2",
+    "ramda": "^0.24.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-hyperscript": "^3.0.0",
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "watchify": "^3.9.0"
   }
 }
