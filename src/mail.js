@@ -22,6 +22,10 @@ function formatName({ address, name }) {
   return parts.join(' ')
 }
 
+async function getMessages(db) {
+  return db.messages.orderBy('headers.date').toArray()
+}
+
 async function importMailbox(db, mboxReadStream) {
   const messages = await new Promise((resolve, reject) => {
     const _messages = []
@@ -54,5 +58,6 @@ async function importMailbox(db, mboxReadStream) {
 }
 
 module.exports = {
+  getMessages,
   importMailbox,
 }
